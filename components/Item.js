@@ -18,7 +18,7 @@ class Item extends Component {
             query: { id: item.id }
           }}>
           <a>
-          <Title>{item.title}</Title>
+            {item.title}
           </a>
           </Link>
         </Title>
